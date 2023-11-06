@@ -14,3 +14,7 @@
 // Other layers
 #include "../knucklehead/L2.dtsi"
 #include "../knucklehead/L3.dtsi"
+
+&nice_view_spi {
+    cs-gpios = <&gpio0 8 GPIO_ACTIVE_HIGH>;
+};
